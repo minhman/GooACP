@@ -1,3 +1,5 @@
-//index.js
-import xinchao from './xinchao';
-xinchao('Dinh');
+import _ from 'lodash';
+
+console.log(
+    _.join(['Vendor', 'module', 'loaded!'], ' ')
+);
