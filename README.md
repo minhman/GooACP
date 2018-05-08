@@ -1,20 +1,20 @@
-###Goo Admin Control Panel
+### Goo Admin Control Panel
 GooACP is a responsive Bootstrap 4 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets. Preview of this awesome admin template available here: https://goo.antnest.vn
 
-###Getting Started
+### Getting Started
 In order to run GooACP on your local machine all what you need to do is to have the prerequisites stated below installed on your machine and follow the installation steps down below.
 
-#####Prerequisites
+##### Prerequisites
 - Node.js
 - Yarn or NPM
 - Git
 
-#####Installing & Local Development
+##### Installing & Local Development
 
 Start by typing the following commands in your terminal in order to get GooACP full package on your machine and starting a local development server with live reload feature.
 ```
-> git clone https://github.com/puikinsh/Adminator-admin-dashboard.git adminator
-> cd adminator
+> git clone https://github.com/minhman/GooACP.git GooACP
+> cd GooACP
 > npm install
 > npm run dev
 ```
