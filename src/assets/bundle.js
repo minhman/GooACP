@@ -1,4 +1,5 @@
-
+import "bootstrap/dist/js/bootstrap"
+import "bootstrap-datepicker/js/bootstrap-datepicker"
 import _ from 'lodash';
 
 console.log(
