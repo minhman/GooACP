@@ -5,16 +5,77 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dashboard</title>
+    <title>Goo Dashboard</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <button class="btn btn-primary">Click to action</button>
-                <img src="<%=require('./assets/statics/images/hd.jpg')%>" alt="">
+
+
+<div id="sidebar" class="--is-collapsed">
+
+    <div class="logo-main p-3">
+        <div class="text-center">
+            <a href="#" class="logo-sm"><span class="text-success">G</span></a>
+            <a href="#" class="logo"><span class="text-success fw-9">Goo</span>ACP</a>
+        </div>
+        <div class="text-right nav-shift-right ab-r-m">
+            <a href="#" class="text-success"><i class="ti-shift-right-alt"></i></a>
+        </div>
+        <div class="text-right nav-shift-left ab-r-m">
+            <a href="#" class="text-success"><i class="ti-shift-left-alt"></i></a>
+        </div>
+
+    </div>
+    <!-- /.logo-main -->
+
+    <div class="user-detail p-3">
+        <div class="text-center">
+            <div class="ava-wrap">
+                <img class="rounded-circle ava online" src="assets/statics/images/avatar.jpg" alt="User Avatar" width="55" height="55">
             </div>
+            <span class="fw-9 d-b mt-2 user-status">Võ Minh Mẫn</span>
+            <small>Developer</small>
         </div>
     </div>
+    <!-- /.user-detail -->
+
+    <div id="main-menu" class="menu-vertical">
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="#">
+                    <i class="mdi mdi-view-dashboard"></i>
+                    <span>Dashboard <span class="badge badge-primary pull-right">1</span></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#">
+                    <i class="mdi mdi-view-dashboard"></i>
+                    <span>Dashboard <span class="badge badge-primary pull-right">1</span></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#">
+                    <i class="mdi mdi-view-dashboard"></i>
+                    <span>Dashboard <span class="badge badge-primary pull-right">1</span></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#">
+                    <i class="mdi mdi-view-dashboard"></i>
+                    <span>Dashboard <span class="badge badge-primary pull-right">1</span></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- /.menu-vertical -->
+
+
+</div>
+<!-- /#sidebar -->
+<div class="wrapper">
+    <button class="btn btn-danger btn-lg">Lorem</button>
+</div>
+<!-- /. wrapper-->
+
+
 </body>
 </html>

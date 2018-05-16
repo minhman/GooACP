@@ -1,0 +1,115 @@
+body{
+  background-color: #f5f5f5;
+}
+#wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#sidebar {
+  background: #ffffff;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  width: $left-nav-width;
+
+  .logo-main {
+    position: relative;
+    z-index: 1;
+    .logo,
+    .logo-sm {
+      color: $gray-800;
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: .03em;
+    }
+    .logo {
+      display: block;
+    }
+    .logo-sm {
+      display: none;
+    }
+    .logo-sm span {
+      display: block;
+      background-color: #eee;
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      font-size: 48px;
+      font-weight: 400;
+      border-radius: 3px;
+    }
+    .nav-shift-right, .nav-shift-left{
+      font-size: 16px;
+      padding-right: 5px;
+    }
+    .nav-shift-right{display: none;}
+    .nav-shift-left{display: block;}
+  }
+  &.is-collapsed{
+    width:$left-nav-width-min;
+    .logo {
+      display: none;
+    }
+    .logo-sm {
+      font-family: $font-logo;
+      display: inline-block;
+    }
+    .nav-shift-right{display: block;}
+    .nav-shift-left{display: none;}
+  }
+  .user-detail{
+    background-color: $gray-100;
+    .ava-wrap {
+
+      img.ava {
+        border: 3px solid $danger;
+      }
+      img.ava.online {
+        border: 3px solid $success;
+      }
+      img.ava.busy {
+        border: 3px solid $yellow;
+      }
+    }
+    .user-status{
+
+    }
+  }
+  #main-menu{
+
+    ul.menu{
+      li.menu-item{
+
+        a{
+          display: block;
+          padding: 15px 25px;
+          background-color: #ffffff;
+          font-size: 15px;
+          height: 50px !important;
+
+          i{
+            display: inline-block;
+            font-size: 18px;
+            line-height: 17px;
+            margin-left: 3px;
+            margin-right: 10px;
+            text-align: center;
+            vertical-align: middle;
+            width: 20px;
+            color: #4a5869;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+
+
+

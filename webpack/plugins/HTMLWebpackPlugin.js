@@ -15,10 +15,6 @@ const minifies = {
 const minify = env.IS_PRODUCTION ? minifies: false;
 
 
-
-
-
-
 module.exports = new HTMLWebpackPlugin({
     template: './src/index.html',
     filename: "index.html",

@@ -1,9 +1,9 @@
 const env = require('./env');
 const output = {
         path: env.paths.build,
-        filename: '[name].[hash].bundle.js',
-        chunkFilename: '[id].[hash].chunk.js',
-        sourceMapFilename: '[file].map',
+        filename: '[name].bundle.js',
+        chunkFilename: '[name].chunk.js',
+        sourceMapFilename: '[name].map',
         publicPath: '',
 };
 module.exports = output;

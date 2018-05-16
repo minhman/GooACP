@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
-console.log(
-    _.join(['Vendor', 'module', 'loaded!'], ' ')
-);
+require('./waves');
+require('./hamburger');
+require('./slimscroll');

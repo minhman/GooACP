@@ -1,0 +1,180 @@
+/* Credit:
+Author: Jesse Couch
+Url: https://codepen.io/designcouch/pen/Atyop
+Use:
+<div id="nav-iconTwo">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+*/
+
+/* Config Global */
+
+$icon-line-height : 3px;
+$icon-line-background: $white;
+
+/* Icon 1 */
+
+#nav-iconOne, #nav-iconTwo, #nav-iconThr {
+  width: 25px;
+  height: 17px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-iconOne span, #nav-iconTwo span, #nav-iconThr span {
+  display: block;
+  position: absolute;
+  height: $icon-line-height;
+  width: 100%;
+  background: $icon-line-background;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-iconOne span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-iconOne span:nth-child(2) {
+  top: 7px;
+}
+
+#nav-iconOne span:nth-child(3) {
+  top: 14px;
+}
+
+#nav-iconOne.open span:nth-child(1) {
+  top: 9px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#nav-iconOne.open span:nth-child(2) {
+  opacity: 0;
+  left: -120px;
+}
+
+#nav-iconOne.open span:nth-child(3) {
+  top: 9px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+
+/* Icon 2 */
+
+#nav-iconTwo span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-iconTwo span:nth-child(2){
+  top: 7px;
+}
+
+#nav-iconTwo span:nth-child(3) {
+  top: 14px;
+}
+
+#nav-iconTwo.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-iconTwo.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 9px;
+}
+
+#nav-iconTwo.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 9px;
+}
+
+#nav-iconTwo.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+/* Icon 3 */
+
+#nav-iconThr {
+}
+
+#nav-iconThr span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-iconThr span:nth-child(2) {
+  top: 7px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-iconThr span:nth-child(3) {
+  top: 14px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-iconThr.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0;
+  left: 3px;
+}
+
+#nav-iconThr.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-iconThr.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 18px;
+  left: 3px;
+}

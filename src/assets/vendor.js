@@ -1,3 +1,3 @@
-import 'bootstrap/scss/bootstrap.scss'
-import 'bootstrap-datepicker/dist/css/bootstrap-datepicker.css'
-console.log('hello me 123');
+require('jquery/src/jquery');
+require('bootstrap/js/src/index');
+require('jquery-slimscroll/jquery.slimscroll.min');

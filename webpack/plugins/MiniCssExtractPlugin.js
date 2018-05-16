@@ -1,6 +1,6 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = new MiniCssExtractPlugin({
-    filename: "style.css",
-    chunkFilename: "style.css"
+    filename: "[name].css",
+    chunkFilename: "[name].chunk.css"
 });

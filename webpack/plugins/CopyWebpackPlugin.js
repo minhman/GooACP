@@ -4,8 +4,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = new CopyWebpackPlugin([
     {
-        from : path.join(env.paths.src, 'assets/statics'),
-        to   : path.join(env.paths.build, 'assets/statics/[name].[sha512:hash:base64:10].[ext]'),
+        from : path.join(env.paths.src, 'assets/statics/images'),
+        to   : path.join(env.paths.build, 'assets/statics/images/[name].[ext]'),
         toType: 'template',
         ignore: [ '*.js' ]
     },

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800&subset=cyrillic,greek,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,700,900&subset=cyrillic,greek,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+$font-logo: Righteous;
+$font-primary: "Open Sans","Roboto", system-ui, sans-serif;
+$font-secondary: "Noto Serif", Time New Roman, serif;
+$font-family-sans-serif : $font-primary !default;
